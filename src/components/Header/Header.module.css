@@ -1,0 +1,102 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 62px;
+}
+
+.logo__container {
+  display: flex;
+  align-items: start;
+  gap: 18px;
+}
+
+.logo {
+  margin-top: 6px;
+  width: 37px;
+  height: 37px;
+  background-color: transparent;
+}
+
+.logo__title {
+  margin: 0;
+  color: #fff;
+  font-size: 14.3px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.text {
+  margin: 0;
+  color: #fff;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.3px;
+}
+
+.logo__company {
+  margin: 0;
+  max-width: 334px;
+  margin-right: 86px;
+}
+
+.email {
+  display: flex;
+  gap: 17px;
+  align-items: center;
+  margin-top: 3px;
+}
+
+.email__btn {
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+  border-radius: 50px;
+  border: 1px solid white;
+  background-color: transparent;
+}
+
+.email__text {
+  color: #fff;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.menu {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+}
+
+.number {
+  margin: 0;
+  color: #fff;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.menu__btn {
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+  background-color: transparent;
+}
+
+.img__menu {
+  border: 1px solid white;
+  border-radius: 50%;
+}
